@@ -1,0 +1,11 @@
+﻿@model int
+
+<div class="row">
+    <div class="col-6">
+        @*<input type="submit" class="btn btn-info form-control" asp-route-Id="@Model" value="Edit" />*@
+        <a asp-action="Edit" asp-route-Id="@Model" class="btn btn-info form-control">Edit</a>
+    </div>
+    <div class="col-6">
+        <a asp-action="Index" class="btn btn-danger form-control">Back to List</a>
+    </div>
+</div>
